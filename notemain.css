@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    border-left: 4px solid gray;
+}
+
+header {
+    display: block;
+}
+
+header>h1 {
+    margin: 0;
+    width: 430px;
+    height: 100px;
+    background-color: rgb(255, 196, 0, 0.5);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 200px;
+    padding-left: 15px;
+}
+
+main {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 310px 310px;
+    grid-template-rows: auto;
+    padding: 30px;
+}
+
+main>div {
+    width: 310px;
+    height: fit-content;
+}
+
+main>div>img {
+    width: 310px;
+    border-top: 7px solid rgb(255, 196, 0);
+}
+
+.tieude {
+    font-weight: normal;
+}
+
+.noidung {
+    font-size: 17px;
+}
