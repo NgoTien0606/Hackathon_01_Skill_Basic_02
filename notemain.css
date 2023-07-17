@@ -26,6 +26,7 @@ main {
     grid-template-columns: 310px 310px;
     grid-template-rows: auto;
     padding: 30px;
+    margin-top: 20px;
 }
 
 main>div {
